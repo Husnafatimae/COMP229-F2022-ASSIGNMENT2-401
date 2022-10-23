@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+      <div class="offset-md-3 col-md-6 col-sm-12">
+            <div class="update" id="contentArea">
+                <h1 class="display-4">Update</h1>
+               
+  
+                <form method="POST" id="updateForm" novalidate>
+                  <div class="form-group mb-2">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <i class="fa fa-user">
+                        </i>
+                      </span>
+                      <input type="text" class="form-control" id="name" name="name"  required
+                      value="" placeholder="Update Name">
+                    </div>
+                  
+                  </div>
+  
+                  <div class="form-group mb-2">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <i class="fa fa-lock">
+                        </i>
+                      </span>
+                      <input type="phonenumber" class="form-control" id="phonenumber" name="phonenumber"  required
+                      value="" placeholder="Enter PhoneNumber">
+                    </div>
+
+                </div>
+  
+                <div class="form-group mb-2">
+                  <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-lock">
+                      </i>
+                    </span>
+                    <input type="emailaddress" class="form-control" id="emailaddress" name="emailaddress"  required
+                    value="" placeholder="Enter EmailAddress">
+                  </div>
+                  
+                  </div>                                        
+                  <div class="text-end">
+                    <button id="DeleteButton" type="submit" class="btn btn-primary btn-lg">
+                      <i class="fas fa-sign-in-alt"></i> Delete</button>
+                      <button id="cancelButton" type="reset" class="btn btn-warning btn-lg">
+                        <i class="fas fa-undo"></i> Cancel</button>
+                  </div>
+                </form>
+      </div>
+    </div>
+  </div>
